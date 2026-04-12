@@ -7,6 +7,24 @@
   },
   "configurePresets": [
     {
+      "name": "route.lw1.at-release",
+      "displayName": "production build used by route.lw1.at",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build-lw1/",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "MOTIS_MIMALLOC": "ON",
+        "CMAKE_COLOR_DIAGNOSTICS": "ON",
+        "CMAKE_C_FLAGS": "-march=native",
+        "CMAKE_CXX_FLAGS": "-march=native",
+        "CMAKE_C_COMPILER": "gcc-13",
+        "CMAKE_CXX_COMPILER": "g++-13",
+        "ENABLE_IPO": "ON",
+        "CURL_LTO": "ON",
+        "WITH_RUNTIME_CPU_DETECTION": "OFF"
+      }
+    },
+    {
       "name": "macos-x86_64",
       "displayName": "MacOS x86_64 Release",
       "generator": "Ninja",
