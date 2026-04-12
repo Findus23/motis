@@ -30,7 +30,7 @@ export const defaultQuery = {
 	requireBikeTransport: false,
 	requireCarTransport: false,
 	elevationCosts: 'NONE',
-	useRoutedTransfers: false,
+	useRoutedTransfers: true,
 	joinInterlinedLegs: true,
 	maxMatchingDistance: 25,
 	maxTransfers: 14,
