@@ -85,7 +85,7 @@
 					: 'connections')
 	);
 	let dataAttributionLink: string | undefined = $state(undefined);
-	let colorMode = $state<'rt' | 'route' | 'mode' | 'none'>(isSmallScreen ? 'none' : 'rt');
+	let colorMode = $state<'rt' | 'route' | 'mode' | 'none'>(isSmallScreen ? 'none' : 'route');
 	let showMap = $state(!isSmallScreen);
 	let showRoutes = $state(false);
 	let routesOverlaySession = $state(0);
