@@ -1,0 +1,19 @@
+{
+    "tilejson": "3.0.0",
+    "scheme": "xyz",
+    "tiles": [
+        "https://maps.lw1.at/tiles/1.0.0/mapterhorn/webmercator_hq/{z}/{x}/{y}.webp"
+    ],
+    "attribution": "<a href='https://mapterhorn.com/attribution'>© Mapterhorn</a>",
+    "bounds": [
+       8.782379,46.35877,17.189532,49.037872
+    ],
+    "center": [
+        0,
+        0,
+        6
+    ],
+    "maxzoom":11,
+    "encoding": "terrarium",
+    "tileSize": 512
+}

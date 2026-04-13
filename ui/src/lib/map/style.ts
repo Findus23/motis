@@ -146,7 +146,7 @@ export const getStyle = (
 		? {
 				hillshadeSource: {
 					type: 'raster-dem',
-					url: 'https://tiles.mapterhorn.com/tilejson.json'
+					url: '/mapterhorn_tilejson.json'
 				} satisfies RasterDEMSourceSpecification
 			}
 		: {};
