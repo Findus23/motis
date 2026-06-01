@@ -93,6 +93,7 @@ const translations: Translations = {
 	considerRentalReturnConstraints: 'Leihfahrzeuge innerhalb der Reise zurückgeben',
 	default: 'Vorgabe',
 	timetableSources: 'Fahrplandatenquellen',
+	imprint: 'Impressum',
 	tripCancelled: 'Fahrt entfällt',
 	stopCancelled: 'Halt entfällt',
 	addStop: 'Haltestelle hinzufügen',
