@@ -1375,6 +1375,7 @@
 					{#if dataAttributionLink}
 						| <a href={dataAttributionLink} target="_blank">{t.timetableSources}</a>
 					{/if}
+					| <a href="https://lw1.at/i/" target="_blank">{t.imprint}</a>
 				</div>
 			</div>
 		</div>
