@@ -91,6 +91,7 @@ export type Translations = {
 	considerRentalReturnConstraints: string;
 	default: string;
 	timetableSources: string;
+	imprint: string;
 	tripCancelled: string;
 	stopCancelled: string;
 	addStop: string;
