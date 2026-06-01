@@ -92,6 +92,7 @@ const translations: Translations = {
 	considerRentalReturnConstraints: 'Return rental vehicles within journey',
 	default: 'Default',
 	timetableSources: 'Timetable sources',
+	imprint: 'Imprint',
 	tripCancelled: 'Trip cancelled',
 	addStop: 'Add Stop',
 	stopCancelled: 'Stop cancelled',
